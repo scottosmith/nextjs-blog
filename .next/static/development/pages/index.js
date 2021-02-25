@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/index.js");
-var _jsxFileName = "/Users/scott/Documents/projects/new-next/components/date.js";
+var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/components/date.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -54,7 +54,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/scott/Documents/projects/new-next/components/layout.js";
+var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/components/layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -786,7 +786,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".layout_container__2t4v2 {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n\n.layout_header__2rhWq {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.layout_headerImage__2h5On {\n    width: 6rem;\n    height: 6rem;\n}\n\n.layout_headerHomeImage__3qo1_ {\n    width: 8rem;\n    height: 8rem;\n}\n\n.layout_backToHome__1vZsp {\n    margin: 3rem 0 0;\n}", "",{"version":3,"sources":["/Users/scott/Documents/projects/new-next/components/layout.module.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,eAAe;IACf,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,gBAAgB;AACpB","file":"layout.module.css","sourcesContent":[".container {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n\n.header {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.headerImage {\n    width: 6rem;\n    height: 6rem;\n}\n\n.headerHomeImage {\n    width: 8rem;\n    height: 8rem;\n}\n\n.backToHome {\n    margin: 3rem 0 0;\n}"]}]);
+exports.push([module.i, ".layout_container__2t4v2 {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n\n.layout_header__2rhWq {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.layout_headerImage__2h5On {\n    width: 6rem;\n    height: 6rem;\n}\n\n.layout_headerHomeImage__3qo1_ {\n    width: 8rem;\n    height: 8rem;\n}\n\n.layout_backToHome__1vZsp {\n    margin: 3rem 0 0;\n}", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/components/layout.module.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,eAAe;IACf,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,gBAAgB;AACpB","file":"layout.module.css","sourcesContent":[".container {\n    max-width: 36rem;\n    padding: 0 1rem;\n    margin: 3rem auto 6rem;\n}\n\n.header {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.headerImage {\n    width: 6rem;\n    height: 6rem;\n}\n\n.headerHomeImage {\n    width: 8rem;\n    height: 8rem;\n}\n\n.backToHome {\n    margin: 3rem 0 0;\n}"]}]);
 // Exports
 exports.locals = {
 	"container": "layout_container__2t4v2",
@@ -807,7 +807,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".utils_heading2Xl__1I65m {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingXl__1XecN {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingLg__de7p0 {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingMd__3de6G {\n    font-size: 1.2rem;\n    line-height: 1.5;\n  }\n  \n  .utils_borderCircle__13qdJ {\n    border-radius: 9999px;\n  }\n  \n  .utils_colorInherit__3Gudf {\n    color: inherit;\n  }\n  \n  .utils_padding1px__oCny8 {\n    padding-top: 1px;\n  }\n  \n  .utils_list__S7_pe {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .utils_listItem__2eJpJ {\n    margin: 0 0 1.25rem;\n  }\n  \n  .utils_lightText__12Ckm {\n    color: #999;\n  }", "",{"version":3,"sources":["/Users/scott/Documents/projects/new-next/styles/utils.module.css"],"names":[],"mappings":"AAAA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;EAClB;;EAEA;IACE,qBAAqB;EACvB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;IAChB,UAAU;IACV,SAAS;EACX;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,WAAW;EACb","file":"utils.module.css","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n  \n  .headingMd {\n    font-size: 1.2rem;\n    line-height: 1.5;\n  }\n  \n  .borderCircle {\n    border-radius: 9999px;\n  }\n  \n  .colorInherit {\n    color: inherit;\n  }\n  \n  .padding1px {\n    padding-top: 1px;\n  }\n  \n  .list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .listItem {\n    margin: 0 0 1.25rem;\n  }\n  \n  .lightText {\n    color: #999;\n  }"]}]);
+exports.push([module.i, ".utils_heading2Xl__1I65m {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingXl__1XecN {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingLg__de7p0 {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingMd__3de6G {\n    font-size: 1.2rem;\n    line-height: 1.5;\n  }\n  \n  .utils_borderCircle__13qdJ {\n    border-radius: 9999px;\n  }\n  \n  .utils_colorInherit__3Gudf {\n    color: inherit;\n  }\n  \n  .utils_padding1px__oCny8 {\n    padding-top: 1px;\n  }\n  \n  .utils_list__S7_pe {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .utils_listItem__2eJpJ {\n    margin: 0 0 1.25rem;\n  }\n  \n  .utils_lightText__12Ckm {\n    color: #999;\n  }", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/styles/utils.module.css"],"names":[],"mappings":"AAAA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;EAClB;;EAEA;IACE,qBAAqB;EACvB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;IAChB,UAAU;IACV,SAAS;EACX;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,WAAW;EACb","file":"utils.module.css","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n  \n  .headingMd {\n    font-size: 1.2rem;\n    line-height: 1.5;\n  }\n  \n  .borderCircle {\n    border-radius: 9999px;\n  }\n  \n  .colorInherit {\n    color: inherit;\n  }\n  \n  .padding1px {\n    padding-top: 1px;\n  }\n  \n  .list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .listItem {\n    margin: 0 0 1.25rem;\n  }\n  \n  .lightText {\n    color: #999;\n  }"]}]);
 // Exports
 exports.locals = {
 	"heading2Xl": "utils_heading2Xl__1I65m",
@@ -19109,12 +19109,12 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -19130,10 +19130,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fscott%2FDocuments%2Fprojects%2Fnew-next%2Fpages%2Findex.js!./":
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fscott%2FDocuments%2Fprojects%2Fnew-next%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsos%2FDocuments%2Fprojects%2Fnextjs-blog%2Fpages%2Findex.js!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsos%2FDocuments%2Fprojects%2Fnextjs-blog%2Fpages%2Findex.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21422,12 +21422,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -22062,12 +22062,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -22538,12 +22538,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -23620,7 +23620,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/scott/Documents/projects/new-next/pages/index.js";
+var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -23828,28 +23828,28 @@ if (true) {
 
 /***/ }),
 
-/***/ 3:
-/*!**************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fscott%2FDocuments%2Fprojects%2Fnew-next%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************/
+/***/ 1:
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsos%2FDocuments%2Fprojects%2Fnextjs-blog%2Fpages%2Findex.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fscott%2FDocuments%2Fprojects%2Fnew-next%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fscott%2FDocuments%2Fprojects%2Fnew-next%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsos%2FDocuments%2Fprojects%2Fnextjs-blog%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsos%2FDocuments%2Fprojects%2Fnextjs-blog%2Fpages%2Findex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_c2e10d183b950a67d9e7":
+/***/ "dll-reference dll_2adc2403d89adc16ead0":
 /*!*******************************************!*\
-  !*** external "dll_c2e10d183b950a67d9e7" ***!
+  !*** external "dll_2adc2403d89adc16ead0" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_c2e10d183b950a67d9e7;
+module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

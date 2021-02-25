@@ -359,7 +359,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}", "",{"version":3,"sources":["/Users/scott/Documents/projects/new-next/styles/global.css"],"names":[],"mappings":"AAAA;;IAEI,UAAU;IACV,SAAS;IACT,wIAAwI;IACxI,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,cAAc;IACd,qBAAqB;AACzB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,eAAe;IACf,cAAc;AAClB","file":"global.css","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}"]}]);
+exports.push([module.i, "html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/styles/global.css"],"names":[],"mappings":"AAAA;;IAEI,UAAU;IACV,SAAS;IACT,wIAAwI;IACxI,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,cAAc;IACd,qBAAqB;AACzB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,eAAe;IACf,cAAc;AAClB","file":"global.css","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}"]}]);
 
 
 /***/ }),
@@ -2378,12 +2378,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -3455,7 +3455,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/global.css */ "./styles/global.css");
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_global_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/Users/scott/Documents/projects/new-next/pages/_app.js";
+var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -3543,19 +3543,19 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/scott/Documents/projects/new-next/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/sos/Documents/projects/nextjs-blog/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_c2e10d183b950a67d9e7":
+/***/ "dll-reference dll_2adc2403d89adc16ead0":
 /*!*******************************************!*\
-  !*** external "dll_c2e10d183b950a67d9e7" ***!
+  !*** external "dll_2adc2403d89adc16ead0" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_c2e10d183b950a67d9e7;
+module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
