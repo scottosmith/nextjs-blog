@@ -72,12 +72,16 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <footer className="footer">
-        © {new Date().getFullYear()}{` `}
-        <div className="footer-links">
-            <a href="https://scottosmith.net" rel="noreferrer" className="link" target="_blank">Scott Smith</a>
-        </div>
-      </footer>
+      {home && (
+        <footer className="footer">
+          © {new Date().getFullYear()}{` `}
+          <div className="footer-links">
+            <Link href="https://scottosmith.net">
+              <a className="link">Scott Smith</a>
+            </Link>
+          </div>
+        </footer>
+      )}
       </div>
     </div>
   )

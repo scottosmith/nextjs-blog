@@ -323,34 +323,39 @@ function Layout({
       lineNumber: 71,
       columnNumber: 13
     }
-  }, "\u2190 Back to home"))), __jsx("footer", {
+  }, "\u2190 Back to home"))), home && __jsx("footer", {
     className: "footer",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 7
+      lineNumber: 76,
+      columnNumber: 9
     }
   }, "\xA9 ", new Date().getFullYear(), ` `, __jsx("div", {
     className: "footer-links",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 9
+      lineNumber: 78,
+      columnNumber: 11
     }
-  }, __jsx("a", {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://scottosmith.net",
-    rel: "noreferrer",
-    className: "link",
-    target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 79,
       columnNumber: 13
     }
-  }, "Scott Smith")))));
+  }, __jsx("a", {
+    className: "link",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 15
+    }
+  }, "Scott Smith"))))));
 }
 
 /***/ }),
