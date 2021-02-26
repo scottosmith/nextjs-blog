@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
-import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
     return (
@@ -11,12 +10,19 @@ export default function Post({ postData }) {
         <Head>
             <title>{postData.title} - SOS</title>
         </Head>
+
         <article>
-            <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-            <div className={utilStyles.lightText}>
-            <Date dateString={postData.date} />
-            </div>
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <header>
+            <h2
+              style={{
+                marginTop: '1.5rem',
+                marginBottom: '1.5rem',
+              }}
+            >
+              <Date dateString={postData.date} />
+            </h2>
+          </header>
+          <section dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
       </Layout>
     )

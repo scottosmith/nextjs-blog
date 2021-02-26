@@ -359,7 +359,21 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/styles/global.css"],"names":[],"mappings":"AAAA;;IAEI,UAAU;IACV,SAAS;IACT,wIAAwI;IACxI,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,cAAc;IACd,qBAAqB;AACzB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,eAAe;IACf,cAAc;AAClB","file":"global.css","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    line-height: 1.6;\n    font-size: 18px;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na {\n    color: #0070f3;\n    text-decoration: none;\n}\n\na:hover {\n    text-decoration: underline;\n}\n\nimg {\n    max-width: 100%;\n    display: block;\n}"]}]);
+exports.push([module.i, "html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    background: #1a1a1a;\n    color: #fff;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na,\na:visited {\n    color: #8b51db;\n    text-decoration: none;\n}\n\na:hover,\na:active {\n    color: #bb8aff;\n}\n\narticle {\n    margin: 0 auto;\n}", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/styles/global.css"],"names":[],"mappings":"AAAA;;IAEI,UAAU;IACV,SAAS;IACT,wIAAwI;IACxI,mBAAmB;IACnB,WAAW;AACf;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;;IAEI,cAAc;IACd,qBAAqB;AACzB;;AAEA;;IAEI,cAAc;AAClB;;AAEA;IACI,cAAc;AAClB","file":"global.css","sourcesContent":["html,\nbody {\n    padding: 0;\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    background: #1a1a1a;\n    color: #fff;\n}\n\n* {\n    box-sizing: border-box;\n}\n\na,\na:visited {\n    color: #8b51db;\n    text-decoration: none;\n}\n\na:hover,\na:active {\n    color: #bb8aff;\n}\n\narticle {\n    margin: 0 auto;\n}"]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/site.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles/site.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".link:hover {\n  text-decoration: underline;\n}\n\n.footer {\n  margin-top: 3.5rem;\n}\n\n.footer-links {\n  display: inline-flex;\n  justify-content: left;\n}\n\n.footer-links a {\n  margin-left: .25rem;\n}\n\np > img {\n  max-width: 95vw;\n  height: auto;\n  width: auto;\n  max-height: 95vh;\n  margin-left: auto;\n  margin-right: auto;\n  position: relative;\n  display: block;\n}\n\n", "",{"version":3,"sources":["/Users/sos/Documents/projects/nextjs-blog/styles/site.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;AAC5B;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,oBAAoB;EACpB,qBAAqB;AACvB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,WAAW;EACX,gBAAgB;EAChB,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;EAClB,cAAc;AAChB","file":"site.css","sourcesContent":[".link:hover {\n  text-decoration: underline;\n}\n\n.footer {\n  margin-top: 3.5rem;\n}\n\n.footer-links {\n  display: inline-flex;\n  justify-content: left;\n}\n\n.footer-links a {\n  margin-left: .25rem;\n}\n\np > img {\n  max-width: 95vw;\n  height: auto;\n  width: auto;\n  max-height: 95vh;\n  margin-left: auto;\n  margin-right: auto;\n  position: relative;\n  display: block;\n}\n\n"]}]);
 
 
 /***/ }),
@@ -3454,10 +3468,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/global.css */ "./styles/global.css");
 /* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_global_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_site_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/site.css */ "./styles/site.css");
+/* harmony import */ var _styles_site_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_site_css__WEBPACK_IMPORTED_MODULE_3__);
 
 var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 function App(_ref) {
   var Component = _ref.Component,
@@ -3466,7 +3483,7 @@ function App(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 12
     }
   }));
@@ -3518,6 +3535,67 @@ if (true) {
       /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./global.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/global.css",
       function () {
         var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./global.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/global.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./styles/site.css":
+/*!*************************!*\
+  !*** ./styles/site.css ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./site.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/site.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./site.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/site.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./site.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/site.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];

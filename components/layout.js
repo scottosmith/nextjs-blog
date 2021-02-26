@@ -1,66 +1,84 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Scott Smith'
-export const siteTitle = 'Scotts Next.js Shit'
+export const siteTitle = 'SOS'
 
 export default function Layout({ children, home }) {
+  const width = home ? '30vw' : '90vw' ;
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content="Blog for Scott O. Smith"
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: width,
+          padding: '1.5rem .5rem',
+        }}
+      >
+      <header>
         {home ? (
-          <>
-            <img
-              src="/images/me.png"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/me.png"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
+          <h1
+            style={{
+              marginBottom: "3rem",
+              marginTop: '2rem',
+              fontSize: '2.5rem'
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: 'none',
+                color: 'inherit'
+              }}
+              href="/"
+            >
+              <a style={{color: 'white', marginBottom: '3rem'}}>
+                {siteTitle}
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
+          </h1>
+        ) : (
+          <h2
+            style={{
+              marginTop: 0,
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: `none`
+              }}
+              href="/"
+            >
+              <a>
+                &lt; {siteTitle}
+              </a>
+            </Link>
+          </h2>
         )}
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div>
           <Link href="/">
             <a>← Back to home</a>
           </Link>
         </div>
       )}
+      <footer className="footer">
+        © {new Date().getFullYear()}{` `}
+        <div className="footer-links">
+            <a href="https://scottosmith.net" rel="noreferrer" className="link" target="_blank">Scott Smith</a>
+        </div>
+      </footer>
+      </div>
     </div>
   )
 }

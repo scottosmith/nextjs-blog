@@ -165,27 +165,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/components/layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-
 const name = 'Scott Smith';
-const siteTitle = 'Scotts Next.js Shit';
+const siteTitle = 'SOS';
 function Layout({
   children,
   home
 }) {
+  const width = home ? '30vw' : '90vw';
   return __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.container,
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -199,31 +193,13 @@ function Layout({
       lineNumber: 12,
       columnNumber: 7
     }
-  }, __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
+  }, __jsx("meta", {
+    name: "description",
+    content: "Blog for Scott O. Smith",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    name: "description",
-    content: "Learn how to build a personal website using Next.js",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 9
-    }
-  }), __jsx("meta", {
-    property: "og:image",
-    content: `https://og-image.now.sh/${encodeURI(siteTitle)}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
       columnNumber: 9
     }
   }), __jsx("meta", {
@@ -232,143 +208,150 @@ function Layout({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 17,
       columnNumber: 9
     }
-  }), __jsx("meta", {
-    name: "twitter:card",
-    content: "summary_large_image",
+  })), __jsx("div", {
+    style: {
+      marginLeft: `auto`,
+      marginRight: `auto`,
+      maxWidth: width,
+      padding: '1.5rem .5rem'
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
+      lineNumber: 19,
+      columnNumber: 7
     }
-  })), __jsx("header", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.header,
+  }, __jsx("header", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 7
     }
-  }, home ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("img", {
-    src: "/images/me.png",
-    className: `${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerHomeImage} ${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.borderCircle}`,
-    alt: name,
+  }, home ? __jsx("h1", {
+    style: {
+      marginBottom: "3rem",
+      marginTop: '2rem',
+      fontSize: '2.5rem'
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 13
+      lineNumber: 29,
+      columnNumber: 11
     }
-  }), __jsx("h1", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.heading2Xl,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 13
-    }
-  }, name)) : __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    style: {
+      boxShadow: 'none',
+      color: 'inherit'
+    },
     href: "/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx("a", {
+    style: {
+      color: 'white',
+      marginBottom: '3rem'
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 43,
       columnNumber: 15
     }
-  }, __jsx("img", {
-    src: "/images/me.png",
-    className: `${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerImage} ${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.borderCircle}`,
-    alt: name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 17
-    }
-  }))), __jsx("h2", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingLg,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 13
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/",
+  }, siteTitle))) : __jsx("h2", {
+    style: {
+      marginTop: 0
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49,
-      columnNumber: 15
+      columnNumber: 11
     }
-  }, __jsx("a", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.colorInherit,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 17
-    }
-  }, name))))), __jsx("main", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 7
-    }
-  }, children), !home && __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.backToHome,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 9
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    style: {
+      boxShadow: `none`
+    },
     href: "/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 11
+      lineNumber: 54,
+      columnNumber: 13
     }
   }, __jsx("a", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60,
+      columnNumber: 15
+    }
+  }, "< ", siteTitle)))), __jsx("main", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 7
+    }
+  }, children), !home && __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 9
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 11
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
       columnNumber: 13
     }
-  }, "\u2190 Back to home"))));
+  }, "\u2190 Back to home"))), __jsx("footer", {
+    className: "footer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 7
+    }
+  }, "\xA9 ", new Date().getFullYear(), ` `, __jsx("div", {
+    className: "footer-links",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 9
+    }
+  }, __jsx("a", {
+    href: "https://scottosmith.net",
+    rel: "noreferrer",
+    className: "link",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 13
+    }
+  }, "Scott Smith")))));
 }
-
-/***/ }),
-
-/***/ "./components/layout.module.css":
-/*!**************************************!*\
-  !*** ./components/layout.module.css ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {
-	"container": "layout_container__2t4v2",
-	"header": "layout_header__2rhWq",
-	"headerImage": "layout_headerImage__2h5On",
-	"headerHomeImage": "layout_headerHomeImage__3qo1_",
-	"backToHome": "layout_backToHome__1vZsp"
-};
 
 /***/ }),
 
@@ -2159,9 +2142,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_date__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/date */ "./components/date.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/posts */ "./lib/posts.js");
+/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/posts */ "./lib/posts.js");
 var _jsxFileName = "/Users/sos/Documents/projects/nextjs-blog/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -2170,9 +2151,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 async function getStaticProps() {
-  const allPostsData = Object(_lib_posts__WEBPACK_IMPORTED_MODULE_6__["getSortedPostsData"])();
+  const allPostsData = Object(_lib_posts__WEBPACK_IMPORTED_MODULE_5__["getSortedPostsData"])();
   return {
     props: {
       allPostsData
@@ -2187,119 +2167,71 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 21,
       columnNumber: 9
     }
-  }, _components_layout__WEBPACK_IMPORTED_MODULE_4__["siteTitle"])), __jsx("section", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.headingMd,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
-    }
-  }, "I rule or not really"), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
-    }
-  }, "(This is a sample website - you\u2019ll be building a site like this on", ' ', __jsx("a", {
-    href: "https://nextjs.org/learn",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 11
-    }
-  }, "our Next.js tutorial"), ".)")), __jsx("section", {
-    className: `${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.headingMd} ${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.padding1px}`,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 7
-    }
-  }, __jsx("h2", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.headingLg,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
-    }
-  }, "Blog"), __jsx("ul", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.list,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }, allPostsData.map(({
+  }, _components_layout__WEBPACK_IMPORTED_MODULE_4__["siteTitle"])), allPostsData.map(({
     id,
     date,
     title
-  }) => __jsx("li", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.listItem,
+  }) => __jsx("article", {
     key: id,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, __jsx("header", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 11
+    }
+  }, __jsx("h4", {
+    style: {
+      margin: '0',
+      marginBottom: '.75rem',
+      display: 'inline-block'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    style: {
+      boxShadow: `none`
+    },
     href: "/posts/[id]",
     as: `/posts/${id}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 17
+      lineNumber: 33,
+      columnNumber: 15
     }
   }, __jsx("a", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 21
-    }
-  }, title)), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 17
-    }
-  }), __jsx("small", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.lightText,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 34,
       columnNumber: 17
     }
   }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2307,34 +2239,18 @@ function Home({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 21
+      lineNumber: 34,
+      columnNumber: 20
     }
-  })))))));
+  })))), __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, ` `, "- ", title)))));
 }
-
-/***/ }),
-
-/***/ "./styles/utils.module.css":
-/*!*********************************!*\
-  !*** ./styles/utils.module.css ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {
-	"heading2Xl": "utils_heading2Xl__1I65m",
-	"headingXl": "utils_headingXl__1XecN",
-	"headingLg": "utils_headingLg__de7p0",
-	"headingMd": "utils_headingMd__3de6G",
-	"borderCircle": "utils_borderCircle__13qdJ",
-	"colorInherit": "utils_colorInherit__3Gudf",
-	"padding1px": "utils_padding1px__oCny8",
-	"list": "utils_list__S7_pe",
-	"listItem": "utils_listItem__2eJpJ",
-	"lightText": "utils_lightText__12Ckm"
-};
 
 /***/ }),
 

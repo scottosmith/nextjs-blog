@@ -1,0 +1,28 @@
+.link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 3.5rem;
+}
+
+.footer-links {
+  display: inline-flex;
+  justify-content: left;
+}
+
+.footer-links a {
+  margin-left: .25rem;
+}
+
+p > img {
+  max-width: 95vw;
+  height: auto;
+  width: auto;
+  max-height: 95vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}
+
