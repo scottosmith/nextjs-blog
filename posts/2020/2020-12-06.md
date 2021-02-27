@@ -1,0 +1,26 @@
+---
+title: justin's bday
+date: "2020-12-06T12:00:00Z"
+description: ""
+category: "photo"
+---
+
+![ ](https://drive.google.com/uc?id=1qSf_dJhrfyXZ5eLxd3xjHRu2kU42dKob)
+
+Had a small, distant get together at the riverfront spot for Justin's birthday. Happy birthday, Justin! <p>As we pulled up, we could see a bright light and a lot of smoke. We thought maybe someone had beat us there or that some other people entirely had their own party going. Turns out there had just recently been a large trash fire that smelled horrible and was still burning, and the bright lights were from a tugboat on the river keeping an eye on the fire. Made for some good lighting.<p>
+
+![ ](https://drive.google.com/uc?id=1uZ_CQlOK3xcjHp8bZ2Nk3mD35OJzrVCg)
+<br><br>
+![ ](https://drive.google.com/uc?id=1V0LgNJh5CJJXlvakpr-ZeBn6ia1Mdj6K)
+<br><br>
+![ ](https://drive.google.com/uc?id=1tu3RGrAjXnR1HBSEn-kZYTlh707OisJk)
+<br><br>
+![ ](https://drive.google.com/uc?id=1XKFfxVWX-MWdE1t-JjiYRTwfpwguM6D5)
+<br><br>
+![ ](https://drive.google.com/uc?id=1Dc8dpwL7I17EnGF08YxdwSkWm3MDEh1J)
+<br><br>
+![ ](https://drive.google.com/uc?id=1XNAkP_svBsiCZ_7jqmXA2rcM_rf19V0O)
+<br><br>
+![ ](https://drive.google.com/uc?id=11-Sw4LnoW8n9DdckiQQyAkObDlHSLskh)
+<br><br>
+![ ](https://drive.google.com/uc?id=1aXpW-P_B88y00o5tuGnULF1GVh4GpWsO)

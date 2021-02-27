@@ -1,0 +1,20 @@
+---
+title: another day, another dollar
+date: "2020-11-28T12:00:00Z"
+description: ""
+category: "photo"
+---
+
+![ ](https://drive.google.com/uc?id=1eLcPwrqpyEiKOj8B4CPYNrylM_sGK48_)
+<br><br>
+![ ](https://drive.google.com/uc?id=1V4RjOqnaQ5t0cCvV0HDhv6oCQd3w_Cou)
+<br><br>
+![ ](https://drive.google.com/uc?id=109YTYaUsDu06vHTWQast_Ku8g6VGKcwd)
+<br><br>
+![ ](https://drive.google.com/uc?id=1EbBPN6sFATyDt7yz7-UOPcN4l-TkOODr)
+<br><br>
+![ ](https://drive.google.com/uc?id=1VQXInC3k9ddCTdIEPunLBpHSs01075G9)
+<br><br>
+![ ](https://drive.google.com/uc?id=12DpXvJaUyr2SDeG4X_o1KylFGHFrUtfy)
+<br><br>
+![ ](https://drive.google.com/uc?id=131VP_6AQsc21QUdh9O-6M7QyxqQSpdnq)
