@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {allPostsData.map(({ id, date, title }) => (
+      {allPostsData.map(({ id, date, year, title }) => (
         <article key={id}>
           <header>
             <h4
@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
                 display: "inline-block",
               }}
             >
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
+              <Link href={`/posts/[year]/[id]`} as={`/posts/${year}/${id}`}>
                 <a style={{ boxShadow: `none` }}>
                   <Date dateString={date} />
                 </a>
