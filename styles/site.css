@@ -15,6 +15,10 @@
   margin-left: .25rem;
 }
 
+section > p {
+  margin-bottom: 2rem;
+}
+
 p > img {
   max-width: 95vw;
   height: auto;
