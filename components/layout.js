@@ -5,7 +5,7 @@ const name = "Scott Smith";
 export const siteTitle = "SOS";
 
 export default function Layout({ children, home }) {
-  const width = home ? "30vw" : "90vw";
+  const width = home ? "50vw" : "90vw";
 
   return (
     <div>
@@ -17,6 +17,7 @@ export default function Layout({ children, home }) {
         style={{
           margin: "0 auto",
           padding: "1.5rem .5rem",
+          width: width,
         }}
       >
         <header>
