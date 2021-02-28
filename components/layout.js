@@ -5,7 +5,7 @@ const name = "Scott Smith";
 export const siteTitle = "SOS";
 
 export default function Layout({ children, home }) {
-  const width = home ? "50vw" : "90vw";
+  const width = home ? "50vw" : "98vw";
 
   return (
     <div>
