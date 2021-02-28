@@ -9,6 +9,7 @@
 .footer-links {
   display: inline-flex;
   justify-content: left;
+  font-size: 1.1rem;
 }
 
 .footer-links a {
@@ -30,3 +31,13 @@ p > img {
   display: block;
 }
 
+.site-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.content {
+  padding: 1rem;
+}
