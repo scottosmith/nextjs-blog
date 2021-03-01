@@ -31,13 +31,31 @@ p > img {
   display: block;
 }
 
-.site-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
+.content {
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 90vw; 
+  padding: 2.625rem 0.875rem;
 }
 
-.content {
-  padding: 1rem;
+.content.home {
+  max-width: 30vw;
+}
+
+.site-title {
+  color: white;
+  margin-bottom: 3rem;
+  box-shadow: none;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.site-title.home a {
+  color: white;
+}
+
+.site-title.post {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
 }
