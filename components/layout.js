@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
+const name = "Scott Smith";
 export const siteTitle = "SOS";
 
 export default function Layout({ children, home }) {
@@ -10,22 +11,18 @@ export default function Layout({ children, home }) {
         <meta name="description" content="Blog for Scott O. Smith" />
         <meta name="og:title" content={siteTitle} />
       </Head>
-      <div className={`content${home ? ' home' : ''}`}>
+      <div className={`content${home ? " home" : ""}`}>
         <header>
           {home ? (
             <h1 className="site-title home">
               <Link href="/">
-                <a>
-                  {siteTitle}
-                </a>
+                <a>{siteTitle}</a>
               </Link>
             </h1>
           ) : (
             <h2 className="site-title post">
               <Link href="/">
-                <a>
-                  &lt; {siteTitle}
-                </a>
+                <a>&lt; {siteTitle}</a>
               </Link>
             </h2>
           )}
