@@ -22,7 +22,10 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </h2>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <section
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+          style={{ textAlign: "center" }}
+        />
       </article>
     </Layout>
   );
