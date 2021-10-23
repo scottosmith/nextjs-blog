@@ -9,6 +9,7 @@
 .footer-links {
   display: inline-flex;
   justify-content: left;
+  font-size: 1.1rem;
 }
 
 .footer-links a {
@@ -24,7 +25,7 @@ section > p {
 }
 
 p > img {
-  max-width: 95vw;
+  max-width: var(--site-width);
   height: auto;
   width: auto;
   max-height: 95vh;
@@ -34,3 +35,30 @@ p > img {
   display: block;
 }
 
+.content {
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: var(--site-width); 
+  padding: 2.625rem 0.875rem;
+}
+
+.content.home {
+  max-width: 30rem;
+}
+
+.site-title {
+  color: white;
+  /* margin-bottom: 3rem; */
+  box-shadow: none;
+  font-size: 2.5rem;
+}
+
+.site-title.home a {
+  color: white;
+}
+
+.site-title.post {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}

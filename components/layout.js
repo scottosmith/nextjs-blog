@@ -4,55 +4,26 @@ import Link from "next/link";
 export const siteTitle = "SOS";
 
 export default function Layout({ children, home }) {
-  const width = home ? "50vw" : "98vw";
-
   return (
-    <div>
+    <>
       <Head>
         <meta name="description" content="Blog for Scott O. Smith" />
         <meta name="og:title" content={siteTitle} />
       </Head>
-      <div
-        style={{
-          margin: "0 auto",
-          padding: "1.5rem .5rem",
-          width: width,
-        }}
-      >
+      <div className={`content${home ? ' home' : ''}`}>
         <header>
           {home ? (
-            <h1
-              style={{
-                marginBottom: "3rem",
-                marginTop: "2rem",
-                fontSize: "2.5rem",
-              }}
-            >
+            <h1 className="site-title home">
               <Link href="/">
-                <a
-                  style={{
-                    color: "white",
-                    marginBottom: "3rem",
-                    boxShadow: "none",
-                    color: "inherit",
-                  }}
-                >
+                <a>
                   {siteTitle}
                 </a>
               </Link>
             </h1>
           ) : (
-            <h2
-              style={{
-                marginTop: 0,
-              }}
-            >
+            <h2 className="site-title post">
               <Link href="/">
-                <a
-                  style={{
-                    boxShadow: `none`,
-                  }}
-                >
+                <a>
                   &lt; {siteTitle}
                 </a>
               </Link>
@@ -73,12 +44,12 @@ export default function Layout({ children, home }) {
             {` `}
             <div className="footer-links">
               <a href="https://scottosmith.net" className="link">
-                Scott Smith
+                {name}
               </a>
             </div>
           </footer>
         )}
       </div>
-    </div>
+    </>
   );
 }
