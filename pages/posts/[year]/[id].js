@@ -5,10 +5,11 @@ import { getAllPostIds, getPostData } from "../../../lib/posts";
 import Date from "../../../components/date";
 
 export default function Post({ postData }) {
+  const pageTitle = `${postData.title} - SOS`;
   return (
     <Layout>
       <Head>
-        <title>{postData.title} - SOS</title>
+        <title>{pageTitle}</title>
       </Head>
 
       <article>
