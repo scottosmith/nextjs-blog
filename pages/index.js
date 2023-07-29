@@ -30,10 +30,12 @@ export default function Home({ allPostsData }) {
                 display: "inline-block",
               }}
             >
-              <Link href={`/posts/[year]/[id]`} as={`/posts/${year}/${id}`}>
-                <a style={{ boxShadow: `none` }}>
-                  <Date dateString={date} />
-                </a>
+              <Link
+                href={`/posts/[year]/[id]`}
+                as={`/posts/${year}/${id}`}
+                style={{ boxShadow: `none` }}
+              >
+                <Date dateString={date} />
               </Link>
             </h4>
             <span>

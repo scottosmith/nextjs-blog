@@ -15,35 +15,25 @@ export default function Layout({ children, home }) {
         <header>
           {home ? (
             <h1 className="site-title home">
-              <Link href="/">
-                <a>{siteTitle}</a>
-              </Link>
+              <Link href="/">{siteTitle}</Link>
             </h1>
           ) : (
             <h2 className="site-title post">
-              <Link href="/">
-                <a>&lt; {siteTitle}</a>
-              </Link>
+              <Link href="/">&lt; {siteTitle}</Link>
             </h2>
           )}
         </header>
         <main>{children}</main>
         {!home && (
           <div>
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
+            <Link href="/">← Back to home</Link>
           </div>
         )}
         {home && (
           <footer className="footer">
             © {new Date().getFullYear()}
             {` `}
-            <div className="footer-links">
-              <a href="https://scottosmith.net" className="link">
-                {name}
-              </a>
-            </div>
+            <div className="footer-links">{name}</div>
           </footer>
         )}
       </div>
