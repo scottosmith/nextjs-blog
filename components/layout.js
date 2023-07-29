@@ -33,11 +33,7 @@ export default function Layout({ children, home }) {
           <footer className="footer">
             © {new Date().getFullYear()}
             {` `}
-            <div className="footer-links">
-              <a href="https://scottosmith.net" className="link">
-                {name}
-              </a>
-            </div>
+            <div className="footer-links">{name}</div>
           </footer>
         )}
       </div>
